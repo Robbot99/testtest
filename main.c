@@ -3,7 +3,7 @@
 // a C project
 
 typedef struct node{
-    int a; 
+    int a;
     struct node *next;
 }Node;
 
