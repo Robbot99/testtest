@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
+// a C project
+
 typedef struct node{
     int a; 
     struct node *next;
@@ -30,10 +32,10 @@ int main(){
     for(number=0; number < 10; number++){
         addto(root, number);
     }
-    int a;
+    /*int a;
     int b;
     a=add(1,2);
     printf("%d", a);
-    print("a");
+    print("a");*/
     return 0;
 }
