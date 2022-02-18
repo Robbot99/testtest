@@ -1,22 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "addto.h"
 // a C project
 
-typedef struct node{
-    int a;
-    struct node *next;
-}Node;
 
-Node *addto(Node *pointer, int zahl){
-    if(pointer == NULL){
-        pointer=malloc(sizeof(Node));
-        pointer->next=NULL;
-        pointer->a=zahl;
-        printf("%d", pointer->a);
-        pointer=pointer->next;
-    }
-    return 0;
-}
 int add(int a, int b){
     return(a+b);
 }
@@ -32,6 +19,9 @@ int main(){
     for(number=0; number < 10; number++){
         addto(root, number);
     }
+    
+
+
     /*int a;
     int b;
     a=add(1,2);
