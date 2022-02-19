@@ -11,6 +11,6 @@ int main(){
     for(number=0; number < 10; number++){
         addto(root, number);
     }
-
+    
     return 0;
 }
